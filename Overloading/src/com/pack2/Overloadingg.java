@@ -10,6 +10,11 @@ class A{
 }
 	
 public class Overloadingg {
+	public static void main(String[] args) {
+		A obj=new A();
+		obj.meth1(12);
+		obj.meth1("varun");
+	}
 	
 		
 
